@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MultiBrowser" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="generateReport.Listeners"></listener>
+	</listeners>
+	<test name="ChromeTest">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="testSript.HomePageTest">
+			</class>
+		</classes>
+	</test> <!--
+	ParameterTest -->
+	<test name="EdgeTest">
+		<parameter name="Browser" value="Edge"></parameter>
+		<classes>
+			<class name="testSript.HomePageTest">
+			</class>
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="Browser" value="Firefox"></parameter>
+		<classes>
+			<class name="testSript.HomePageTest">
+			</class>
+		</classes>
+	</test>
+</suite> <!--
+Suite -->

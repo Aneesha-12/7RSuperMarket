@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [grouping]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="generateReport.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testSript.LoginPageTest">
+        <methods>
+          <include name="verifyCorrectUsernameAndIncorrectPassword"/>
+          <include name="varify_Valid_Username_Invalid_Password"/>
+        </methods>
+      </class> <!-- testSript.LoginPageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [grouping] -->
