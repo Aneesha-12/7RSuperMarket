@@ -23,5 +23,15 @@ public class FakerUtility {
 	{
 		return faker.internet().emailAddress();
 	}
+	
+	public String getPhoneNo()
+	{
+		return faker.phoneNumber().cellPhone();
+	}
+	
+	public String getCompanyName()
+	{
+		return faker.company().name();
+	}
 
 }

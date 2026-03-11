@@ -35,10 +35,10 @@ public class ManageCategoryPageTest extends Base{
 	  .scrollDown().scrollDownActionToTopMenuButton()
 	  .topMenu_No_Button();
 	  managecategorypage.save_Button();
-	/*  boolean IsAlertDisplayed = managecategorypage.isAlertDisplay();
+	  boolean IsAlertDisplayed = managecategorypage.isAlertDisplay();
 	  Assert.assertTrue(IsAlertDisplayed, Constant.ERRORMESSAGEFORMANAGECATEGORY);
 	  System.out.println(driver.getCurrentUrl());
 	
-	  */
+	  
   }
 }

@@ -1,7 +1,5 @@
 package Pages;
 
-import java.awt.AWTException;
-import java.awt.Robot;
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -68,9 +66,6 @@ public class ManageCategoryPage
 	public ManageCategoryPage chooseFileButton() throws IOException
 	{
 		file.sendkeysFor_FileUpload(choosefile, Constant.TESTIMAGE);
-	
-		//choosefile.sendKeys(ExcelUtility.readStringData(0, 0,"ManageCategoryPage"));
-		
 		return this;
 	}
 		
@@ -81,10 +76,8 @@ public class ManageCategoryPage
 		return this;
 	}
 	
-		
 	public ManageCategoryPage save_Button()
 	{
-		//wait.element_ToBe_Clicked(driver, save);
 		save.click();
 		return this;
 	}
@@ -95,14 +88,6 @@ public class ManageCategoryPage
 		script.executeScript("window.scrollBy(0,5000)","");
 		return this;
 	}
-	
-/*	public ManageCategoryPage delay() throws AWTException
-	{
-		Robot robot=new Robot();
-		robot.delay(5000);
-		return this;
-	}
-	*/
 	
 	public ManageCategoryPage scrollDownActionToTopMenuButton()
 	{

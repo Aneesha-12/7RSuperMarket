@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testSript.LoginPageTest">
+      <class name="testSript.ManageCategoryPageTest">
         <methods>
           <include name="beforeMethod"/>
-          <include name="verifyValidCredential" invocation-numbers="1 2 3"/>
+          <include name="varify_A_New_Category_Added"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- testSript.LoginPageTest -->
+      </class> <!-- testSript.ManageCategoryPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

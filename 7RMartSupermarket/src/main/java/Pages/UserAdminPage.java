@@ -18,8 +18,6 @@ public class UserAdminPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	
-	
 	@FindBy(xpath = "//a[@class='btn btn-rounded btn-danger']")
 	WebElement newbutton;
 	
@@ -58,8 +56,6 @@ public class UserAdminPage {
 	{
 		utility.selectByIndex(typefield, 1);
 		return this;
-		//Select select= new Select(typefield);
-		//select.selectByIndex(1);
 	}
 	
 	public UserAdminPage  saveButton()
