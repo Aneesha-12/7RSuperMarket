@@ -46,7 +46,7 @@ public class Base {
 		} else {
 			throw new Exception("invalid browser");
 		}
-	//  driver = new ChromeDriver();
+	
 	  driver.get(properties.getProperty("url"));
 	  driver.manage().window().maximize();
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));//wait until a action is done
@@ -64,7 +64,7 @@ public class Base {
 	  		if (driver != null) {
 	  			driver.quit();
 	  		}
-	  //driver.quit();
+	
   }
 
 }
