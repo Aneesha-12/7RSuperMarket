@@ -26,5 +26,5 @@
 			</class>
 		</classes>
 	</test>
-</suite> <!--
+</suite> <!--to run testcase simultaneously in 3 browsers
 Suite -->

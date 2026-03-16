@@ -12,5 +12,5 @@
 		</classes>
 	</test> <!--
 	ParameterTest -->
-</suite> <!--
+</suite> <!--run multiple testcase at the same time
 Suite -->

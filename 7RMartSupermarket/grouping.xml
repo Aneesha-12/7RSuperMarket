@@ -18,5 +18,5 @@
 	</test> <!--
 	ParameterTest -->
 
-</suite> <!--
+</suite> <!--To run specific testcases together based on its functionality
 Suite -->
