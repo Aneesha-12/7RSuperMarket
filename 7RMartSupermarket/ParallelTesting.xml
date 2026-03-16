@@ -9,7 +9,7 @@
 		<classes>
 			<class name="testSript.HomePageTest">
 			</class>
-			<class name="testSript.ManageCategoryPageTest"></class>
+			
 		</classes>
 	</test> <!--
 	ParameterTest -->

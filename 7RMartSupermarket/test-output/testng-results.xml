@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-13T11:31:05 IST" name="Default suite" finished-at="2026-03-13T11:31:06 IST" duration-ms="275">
+  <suite started-at="2026-03-16T14:23:34 IST" name="Default suite" finished-at="2026-03-16T14:23:34 IST" duration-ms="118">
     <groups>
     </groups>
-    <test started-at="2026-03-13T11:31:05 IST" name="Default test" finished-at="2026-03-13T11:31:06 IST" duration-ms="275">
+    <test started-at="2026-03-16T14:23:34 IST" name="Default test" finished-at="2026-03-16T14:23:34 IST" duration-ms="118">
       <class name="testSript.ManageCategoryPageTest">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testSript.ManageCategoryPageTest@178617da]" started-at="2026-03-13T11:31:06 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1773381666129" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testSript.ManageCategoryPageTest@55d98bbb]" started-at="2026-03-16T14:23:34 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1773651214722" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'Browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-944120558\testng-customsuite.xml]]>
+in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-932110929\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'Browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-944120558\testng-customsuite.xml
+in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-932110929\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -53,17 +53,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="varify_A_New_Category_Added()[pri:0, instance:testSript.ManageCategoryPageTest@178617da]" started-at="2026-03-13T11:31:06 IST" name="varify_A_New_Category_Added" finished-at="2026-03-13T11:31:06 IST" duration-ms="1" status="SKIP">
+        <test-method signature="varify_A_New_Category_Added()[pri:0, instance:testSript.ManageCategoryPageTest@55d98bbb]" started-at="2026-03-16T14:23:34 IST" name="varify_A_New_Category_Added" description="To verify add new Item successfully in Manage category page" finished-at="2026-03-16T14:23:34 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'Browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-944120558\testng-customsuite.xml]]>
+in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-932110929\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'Browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-944120558\testng-customsuite.xml
+in C:\Users\Aneesha\AppData\Local\Temp\testng-eclipse-932110929\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:264)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
 at org.testng.internal.Parameters.createParameters(Parameters.java:690)
@@ -99,11 +99,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- varify_A_New_Category_Added -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testSript.ManageCategoryPageTest@178617da]" started-at="2026-03-13T11:31:06 IST" name="afterMethod" finished-at="2026-03-13T11:31:06 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testSript.ManageCategoryPageTest@55d98bbb]" started-at="2026-03-16T14:23:34 IST" name="afterMethod" finished-at="2026-03-16T14:23:34 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=varify_A_New_Category_Added status=SKIP method=ManageCategoryPageTest.varify_A_New_Category_Added()[pri:0, instance:testSript.ManageCategoryPageTest@178617da] output={null}]]]>
+                <![CDATA[[TestResult name=varify_A_New_Category_Added status=SKIP method=ManageCategoryPageTest.varify_A_New_Category_Added()[pri:0, instance:testSript.ManageCategoryPageTest@55d98bbb] output={null}]]]>
               </value>
             </param>
           </params>

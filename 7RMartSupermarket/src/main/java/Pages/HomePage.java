@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	WebDriver driver;
 	
+	//webelements and methods to be used are declared here
 	public HomePage(WebDriver driver) 
 	{
 		this.driver=driver;

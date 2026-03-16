@@ -2,6 +2,7 @@ package constants;
 
 public class Constant {
 	//to display all constant messages  through out project
+	// all unchandes messages and paths to be used in this project is displayed here. 
 	
 	public static final String ERRORMESSAGEFORLOGIN ="Home page is not displayed......Login page is not logged in";
 	//ERRORMESSAGEFORLOGIN is a final variable so it is write in full capital letters 
