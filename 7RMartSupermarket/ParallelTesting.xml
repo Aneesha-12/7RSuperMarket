@@ -7,7 +7,7 @@
 	<parameter name="Browser" value="Chrome"></parameter>
 	<test name="ChromeTest">
 		<classes>
-			
+			<class name="testSript.HomePageTest"></class>
 			<class name="testSript.ManageNewsPage"></class>
 		</classes>
 	</test> <!--
