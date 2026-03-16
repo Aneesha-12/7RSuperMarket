@@ -3,7 +3,7 @@ package retry;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class Retry implements IRetryAnalyzer {
+public class Retry implements IRetryAnalyzer {//rety faky testcases atleast two times
 	int counter = 0;
 	int retryLimit = 2;
 

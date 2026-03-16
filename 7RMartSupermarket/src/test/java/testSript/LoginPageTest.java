@@ -16,7 +16,7 @@ public class LoginPageTest extends Base{
 	HomePage homepage;
 	
 	//Data provider starts---------------------
-  @Test(dataProvider = "credential")
+  @Test(dataProvider = "credential",description = "To verify Login with different combination of data using data provider")
   public void verifyValidCredential(String username,String password) 
   {
 	  LoginPage login = new LoginPage(driver);
@@ -43,7 +43,7 @@ public class LoginPageTest extends Base{
 		homepage=login.LoginButton();
 	}
 	//parameter ends--------------------------
-	@Test(groups = "smoke")
+	@Test(groups = "smoke",description = "To verify login when enter valid username and invalid password")
 	public void varify_Valid_Username_Invalid_Password() throws IOException
 	{
 		LoginPage login = new LoginPage(driver);
@@ -52,7 +52,7 @@ public class LoginPageTest extends Base{
 		login.enterUsernamePassword(username,password);
 		homepage=login.LoginButton();
 	}
-	@Test(groups = "smoke")
+	@Test(groups = "smoke",description = "To verify login when enter valid username and invalid password")
 	  public void verifyCorrectUsernameAndIncorrectPassword() throws IOException {
 		LoginPage login = new LoginPage(driver);
 		String username=ExcelUtility.readStringData(3, 0, "LoginPageTest");

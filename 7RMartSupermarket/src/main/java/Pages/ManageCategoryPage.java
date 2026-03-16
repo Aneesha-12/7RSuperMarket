@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import constants.Constant;
 import utilities.FileUploadUtility;
+import utilities.PageUtility;
 import utilities.WaitUtility;
 
 
@@ -18,6 +19,7 @@ public class ManageCategoryPage
 	WebDriver driver;
 	FileUploadUtility file = new FileUploadUtility();
     WaitUtility wait = new WaitUtility();
+    PageUtility page = new PageUtility();
 	public ManageCategoryPage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -78,9 +80,11 @@ public class ManageCategoryPage
 	
 	public ManageCategoryPage save_Button()
 	{
-		save.click();
+		page.normalClickNotWorking(save);
+		//save.click();
 		return this;
 	}
+
 	
 	public ManageCategoryPage scrollDown()
 	{

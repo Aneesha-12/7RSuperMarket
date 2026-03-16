@@ -33,5 +33,4 @@ public class FakerUtility {
 	{
 		return faker.company().name();
 	}
-
 }

@@ -13,7 +13,7 @@ public class ManageNewsPageTest extends Base{
 	HomePage homepage;
 	ManageNewsPage newspage;
 	
-  @Test
+  @Test(description = "To verify add new news in Manage News page")
   public void varify_News_Message_Added() throws IOException {
 	  LoginPage loginpage=new LoginPage(driver);
 	  String username=ExcelUtility.readStringData(2, 0, "LoginPageTest");

@@ -21,7 +21,7 @@ public class ManageCategoryPageTest extends Base{
 	ManageCategoryPage managecategorypage;
 	FakerUtility faker = new FakerUtility();
 	
-  @Test
+  @Test(description = "To verify add new Item successfully in Manage category page")
   public void varify_A_New_Category_Added() throws IOException, AWTException {
 	  LoginPage login = new LoginPage(driver);
 	  String username=ExcelUtility.readStringData(2, 0, "LoginPageTest");
@@ -33,11 +33,10 @@ public class ManageCategoryPageTest extends Base{
 	  managecategorypage.newButton().categoryBox(categoryname)
 	  .discountButton().chooseFileButton()
 	  .scrollDown().scrollDownActionToTopMenuButton()
-	  .topMenu_No_Button();
-	  managecategorypage.save_Button();
+	  .topMenu_No_Button().save_Button();
 	  boolean IsAlertDisplayed = managecategorypage.isAlertDisplay();
 	  Assert.assertTrue(IsAlertDisplayed, Constant.ERRORMESSAGEFORMANAGECATEGORY);
-	  System.out.println(driver.getCurrentUrl());
+	//  System.out.println(driver.getCurrentUrl());
 	
 	  
   }

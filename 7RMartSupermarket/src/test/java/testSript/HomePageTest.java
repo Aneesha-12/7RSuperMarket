@@ -12,7 +12,7 @@ import utilities.ExcelUtility;
 
 public class HomePageTest extends Base{
 	HomePage homepage;
-  @Test
+  @Test(description = "Varify the Logout button is work properly")
   public void verifyLogOutButton() throws IOException {
 	  LoginPage login = new LoginPage(driver);
 	  String username=ExcelUtility.readStringData(2, 0, "LoginPageTest");

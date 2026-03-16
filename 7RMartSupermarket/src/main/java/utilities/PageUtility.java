@@ -43,4 +43,10 @@ public class PageUtility {
 		select.selectByValue(value);
 	}
 	
+	public void normalClickNotWorking(WebElement element)
+	{
+		JavascriptExecutor script = (JavascriptExecutor) driver;
+		script.executeScript("arguments[0].click();",element);
+	}
+	
 }
