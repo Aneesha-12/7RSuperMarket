@@ -17,7 +17,7 @@ public class UserAdminPageTest extends Base{
 	UserAdminPage adminpage;
 	FakerUtility faker = new FakerUtility();
 	
-  @Test(description = "Varify new user successfully added to admin page",retryAnalyzer = retry.Retry.class)//retry
+  @Test(description = "Verify new user successfully added to admin page",retryAnalyzer = retry.Retry.class)//retry
   public void verify_Admin_MoreInfo() throws IOException {
 	  LoginPage login = new LoginPage(driver);
 	  String username=ExcelUtility.readStringData(1, 0, "AdminPageTest");
